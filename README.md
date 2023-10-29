@@ -20,16 +20,19 @@ Deploy AWS 3-Tier infrastructure with Terraform, Ansible, Terragrunt Jenkins pip
   ``sh
   sudo su -
   ``
+  
  - Install nginix on amazon linux
   
   ``sh
   amazon-linux-extras install nginx1
   ``
+  
   - start the service
   
   ``sh
   systemctl enable nginx
   ``
+  
 install awscli
   
   ``sh
@@ -40,6 +43,7 @@ Install ansible Package
   ``sh
   amazon-linux-extras install ansible2 -y
   `` 
+  
 install amazon ssm-agent
   
   ``sh
@@ -67,9 +71,11 @@ install amazon ssm-agent
 sudo su -
 ``
 - install jdk packages 8
+- 
   ``sh
   yum install java-1.8.0-openjdk-devel -y
   ``
+  
   - install ansible packages
     ``sh
     amazon-linux-extras install ansible2 -y
