@@ -84,18 +84,33 @@ sudo su -
   ``sh
   tar -zxvf apache-tomcat-8.5.95.tar.gz
   ``
-   rename tocat
+
+    rename tomcat
   ``sh
   mv apache-tomcat-8.5.95 tomcat
   ``
+  
   - cd tomcat
+
   - pwd
   - 
     Take a copy of AMI of tomcat-ec2 server
-   - ec2 management console -> actions -> image and templates -> create image -> 
+   - ec2 management console -> actions -> image and templates -> create image 
    - image name :sanjo-app-ami
    - create image
-    
+ 
+   # Intiaize s3 backup state
+   - backend tf
+  # Intiaize VPC
+   - VPC.tf
+
+# Create AWs Common Resources - S3 Bucket ,IAM Role,SNS Topic,Key Pair,RDS Secrets
+
+- Navigate to S3(simple storage) for dyanamic configuration -
+- Bucket name :sanjo-web-data
+- AWS Region  :US East (N. Virginia) us-east-1
+-  Object ownership :ACLs enabled
+-  create bucket
   
   
   
