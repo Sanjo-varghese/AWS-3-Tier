@@ -5,7 +5,7 @@ Deploy AWS 3-Tier infrastructure with Terraform, Ansible, Terragrunt Jenkins pip
 ![sanjo](https://github.com/Sanjo-varghese/AWS-3-Tier/assets/116708794/1a6813cb-54a0-48fd-9895-1e5f1dc213f0)
 
 # Platform Setup
-  -Login to aws Mangement console
+  Login to aws Mangement console
   - create a ec2 instance
   - Name :web app
   - Ami :Amazon linux 2
@@ -16,13 +16,13 @@ Deploy AWS 3-Tier infrastructure with Terraform, Ansible, Terragrunt Jenkins pip
 - Login via Mobaxtrem or putty
 
   #AMAZON LINUX 2 AMI
-  ```sh
+  ``sh
   sudo su -
-  ```
+  ``
   -Install nginix on amazon linux
-  ```sh
+  ``sh
   amazon-linux-extras install nginx1
-  ```
+  ``
   -start the service
   ``sh
   systemctl enable nginx
@@ -85,7 +85,7 @@ sudo su -
   - pwd
   - 
     Take a copy of AMI of tomcat-ec2 server
-    -  - ec2 management console -> actions -> image and templates -> create image -> 
+   - ec2 management console -> actions -> image and templates -> create image -> 
    - image name :sanjo-app-ami
    - create image
     
