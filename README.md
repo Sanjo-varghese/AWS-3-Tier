@@ -73,19 +73,17 @@ sudo su -
     ```
     - install apache tomcat
     - visit - https://tomcat.apache.org/download-80.cgi
-    - cd /opt
-  
+    cd /opt
       ```sh
-    - wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.95/bin/apache-tomcat-8.5.95.tar.gz.sha512
+     wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.95/bin/apache-tomcat-8.5.95.tar.gz.sha512
       ```
       unzip 
    
   ```sh
   tar -zxvf apache-tomcat-8.5.95.tar.gz
   ```
-
-    rename tomcat
   
+    rename tomcat
   ```sh
   mv apache-tomcat-8.5.95 tomcat
   ```
