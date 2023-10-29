@@ -103,7 +103,7 @@ rename tomcat
 
 # Create AWs Common Resources - S3 Bucket ,IAM Role,SNS Topic,Key Pair,RDS Secrets
 
- Navigate to S3(simple storage) for dyanamic configuration -
+**Navigate to S3(simple storage) for dyanamic configuration**
 - Bucket name :sanjo-web-data
 - AWS Region  :US East (N. Virginia) us-east-1
 -  Object ownership :ACLs enabled
