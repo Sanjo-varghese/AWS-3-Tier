@@ -15,32 +15,32 @@ Deploy AWS 3-Tier infrastructure with Terraform, Ansible, Terragrunt Jenkins pip
   - launch instance
 - Login via Mobaxtrem or putty
 
-  #AMAZON LINUX 2 AMI
+  # AMAZON LINUX 2 AMI
   
   ``sh
   sudo su -
   ``
-  -Install nginix on amazon linux
+ - Install nginix on amazon linux
   
   ``sh
   amazon-linux-extras install nginx1
   ``
-  -start the service
+  - start the service
   
   ``sh
   systemctl enable nginx
   ``
-  -install awscli
+  - install awscli
   
   ``sh
   yum install awscli
   ``
-  -Install ansible Package
+  - Install ansible Package
   
   ``sh
   amazon-linux-extras install ansible2 -y
   ``
-  -install amazon ssm-agent
+  - install amazon ssm-agent
   
   ``sh
   yum install amazon-ssm-agent
