@@ -99,14 +99,14 @@ sudo su -
    - image name :sanjo-app-ami
    - create image
  
-   # Intiaize s3 backup state
+   # Intiaize s3 backup state on backend folder
    - backend tf
-  # Intiaize VPC
+  # Intiaize VPC on Vpc folder
    - VPC.tf
 
 # Create AWs Common Resources - S3 Bucket ,IAM Role,SNS Topic,Key Pair,RDS Secrets
 
-- Navigate to S3(simple storage) for dyanamic configuration -
+ Navigate to S3(simple storage) for dyanamic configuration -
 - Bucket name :sanjo-web-data
 - AWS Region  :US East (N. Virginia) us-east-1
 -  Object ownership :ACLs enabled
