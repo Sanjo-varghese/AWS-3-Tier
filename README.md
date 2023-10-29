@@ -120,7 +120,8 @@ rename tomcat
 
 **secret manager to store RDS secrets***
 - store a new secret -> other type of secret
-  **key/value Pairs**
+
+**key/value Pairs**
 - username :dbadmin
 - password :dbadmin123
 - next
@@ -131,3 +132,4 @@ rename tomcat
   - navigate to Route 53
   - Create hosted Zone
      
+# write Ansible Playbook & Load config to S3
