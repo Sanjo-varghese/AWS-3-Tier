@@ -72,24 +72,23 @@ sudo su -
     amazon-linux-extras install ansible2 -y
     ```
     - install apache tomcat
-    - visit - https://tomcat.apache.org/download-80.cgi
-    cd /opt
+      visit - https://tomcat.apache.org/download-80.cgi
+
+     cd /opt
+    
       ```sh
      wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.95/bin/apache-tomcat-8.5.95.tar.gz.sha512
       ```
-      unzip 
-   
+ unzip  
   ```sh
   tar -zxvf apache-tomcat-8.5.95.tar.gz
   ```
-  
-    rename tomcat
+
+rename tomcat
   ```sh
   mv apache-tomcat-8.5.95 tomcat
   ```
-  
   - cd tomcat
-
   - pwd
   - 
     Take a copy of AMI of tomcat-ec2 server
