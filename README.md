@@ -108,7 +108,26 @@ rename tomcat
 - AWS Region  :US East (N. Virginia) us-east-1
 -  Object ownership :ACLs enabled
 -  create bucket
-  
-  
-  
+
+**Create SNS topic**
+- Navigate to Simple Notification Services
+- create a topic
+***create a IAM Role***
+- Roles -> create role -> use case -> Ec2 -> next
+- Policy -> AdministratorAccess
+- Role name -sanjo-global-role
+- create Role
+
+**secret manager to store RDS secrets***
+- store a new secret -> other type of secret
+  **key/value Pairs**
+- username :dbadmin
+- password :dbadmin123
+- next
+- Secret name :sanjo-rds-01
+- store
+
+**hosted zone to create dns records**
+  - navigate to Route 53
+  - Create hosted Zone
      
