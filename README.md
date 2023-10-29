@@ -17,38 +17,38 @@ Deploy AWS 3-Tier infrastructure with Terraform, Ansible, Terragrunt Jenkins pip
 
   # AMAZON LINUX 2 AMI
   
-  ``sh
+  ```sh
   sudo su -
-  ``
+  ```
   
  - Install nginix on amazon linux
   
-  ``sh
+  ```sh
   amazon-linux-extras install nginx1
-  ``
+  ```
   
   - start the service
   
-  ``sh
+  ```sh
   systemctl enable nginx
-  ``
+  ```
   
 install awscli
   
-  ``sh
+  ```sh
   yum install awscli
-  ``
+  ```
 Install ansible Package
   
-  ``sh
+  ```sh
   amazon-linux-extras install ansible2 -y
-  `` 
+  ```
   
 install amazon ssm-agent
   
-  ``sh
+  ```sh
   yum install amazon-ssm-agent
-  ``
+  ```
   
   # Take a copy of AMI of ec2 server
    - ec2 management console -> actions -> image and templates -> create image -> 
@@ -67,34 +67,35 @@ install amazon ssm-agent
      login via ssh
  - Navigate to super user
    
-   ``sh
+   ```sh
 sudo su -
-``
+```
 - install jdk packages 8
-- 
-  ``sh
+
+  ```sh
   yum install java-1.8.0-openjdk-devel -y
-  ``
+  ```
   
   - install ansible packages
-    ``sh
+    ```sh
     amazon-linux-extras install ansible2 -y
-    ``
+    ```
     - install apache tomcat
     - visit - https://tomcat.apache.org/download-80.cgi
     - cd /opt
+      ```sh
     - wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.95/bin/apache-tomcat-8.5.95.tar.gz.sha512
-      
+      ```
       unzip 
    
-  ``sh
+  ```sh
   tar -zxvf apache-tomcat-8.5.95.tar.gz
-  ``
+  ```
 
     rename tomcat
-  ``sh
+  ```sh
   mv apache-tomcat-8.5.95 tomcat
-  ``
+  ```
   
   - cd tomcat
 
