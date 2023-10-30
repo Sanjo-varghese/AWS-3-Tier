@@ -152,9 +152,11 @@ rename tomcat
   - navigate to Route 53
   - Create hosted Zone
      
-**write Ansible Playbook & Load config to S3**
-**terragrunt deployment**
-**jenkins Automation**
+- **write Ansible Playbook & Load config to S3**
+
+- **terragrunt deployment**
+
+- **jenkins Automation**
 
 ![jenkins](https://github.com/Sanjo-varghese/AWS-3-Tier/assets/116708794/f6c9d65e-df4d-438d-8005-d27e8abf23a1)
 
